@@ -1151,7 +1151,7 @@ header.jumbotron{
     box-shadow:none;
     margin-bottom:30px;
     height:68px;
-    font-size:30px;
+    font-size:18px;
     line-height:48px;
     font-weight:300;
     color:#8aaad9;
@@ -1169,7 +1169,7 @@ header.jumbotron{
     top:0;
     left:5px;
     color:#8aaad9;
-    font-size:32px;
+    font-size:20px;
     line-height:68px;
     text-align:center;
     font-weight:300;
@@ -1184,7 +1184,7 @@ header.jumbotron{
     height:auto;
 	max-width:100%;
 	min-width:100%;
-    font-size:30px;
+    font-size:20px;
     line-height:42px;
 	padding-top:14px;
 }
