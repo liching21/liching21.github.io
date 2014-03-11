@@ -36,17 +36,14 @@ $(document).ready(function() {
 			},2000);
 		}
 		else {
-			$('#contact-form button').html('<i class="icon-refresh icon-spin"></i>'+sendingMessage);
-			
-			var formInput = $(this).serialize();
-			$.post($(this).attr('action'),formInput, function(data){
-				$('#contact-form button').html('<i class="icon-ok"></i>'+okMessage);
-				setTimeout(function(){
-					$('#contact-form button').html(buttonCopy);
-					$('#contact-form button').width('auto');
-				},2000);
-				
-			});
+			$.ajax({
+				dataType: 'jsonp',
+				url: "http://getsimpleform.com/messages/ajax?form_api_token=179bb2aeb97ea60e2c5a3a1dcb13e6a8",
+				data: $('#contact-form').serialize() 
+				}).done(function() {
+					$('#myModal').modal('show');
+				});
+				return false;
 		}
 		
 		return false;	
