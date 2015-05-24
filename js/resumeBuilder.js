@@ -84,7 +84,7 @@ var work = {
 			"description": "My role primarily involves in direct verbal and written communication with customers who require assistance with using Little Hotelier. Additionally I coordinate with the Level 2 Support team to resolve higher level enquiries and keep the customer informed of the progress. I ensure that cases are dealt with in a timely manner with efficiency and accuracy untimately providing a pleasant experience to our customers."
 		},
 		{
-			"employer": "Sydney Eemralds Synchro Club",
+			"employer": "Sydney Emeralds Synchro Club",
 			"title": "Coach",
 			"location": "Cook and Phillip Aquatic and Fitness Centre",
 			"dates": "2009 - 2014",
