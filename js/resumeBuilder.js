@@ -165,8 +165,12 @@ var projects = {
 			$("#projects").append(HTMLprojectStart);
 
 			var formattedProjectTitle = HTMLprojectTitle.replace("%data%",projects.projects[project].title);
+			formattedProjectTitle = formattedProjectTitle.replace("%link%",projects.projects[project].url);
+
 			var formattedProjectDates = HTMLprojectDates.replace("%data%",projects.projects[project].dates);
 			var formattedProjectURL = HTMLprojectURL.replace("%data%",projects.projects[project].url);
+			formattedProjectURL = formattedProjectURL.replace("%link%",projects.projects[project].url);
+
 			var formattedProjectDescription = HTMLprojectDescription.replace("%data%",projects.projects[project].description);
 
 			$(".project-entry:last").append(formattedProjectTitle);
@@ -259,17 +263,6 @@ var education = {
 }
 
 education.display();
-
-/**	Lesson 2 internationalise the name
-$("#main").append(internationalizeButton);
-
-function inName(name) {
-	var names = name.split(" ");
-	names[1] = names[1].toUpperCase();
-	names[0] = names[0].slice(0,1).toUpperCase() + names[0].slice(1).toLowerCase();
-	var joinName = names.join(" ");
-	return joinName;
-}*/
 
 /** show google map */
 $("#mapDiv").append(googleMap);
