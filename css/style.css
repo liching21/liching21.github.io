@@ -121,7 +121,6 @@ a {
 }
 
 #header {
-  /**background-color: #006666;**/
   background-image: url("../images/water+rocks.jpeg");
   background-size: 100%;
 }
@@ -200,6 +199,12 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
+
+  #header{
+    background-color: #006666;
+    background-image: none;
+  }
+
   #letsConnect {
     margin-top: 10%;
   }
