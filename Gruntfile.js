@@ -33,6 +33,17 @@ module.exports = function(grunt) {
              'index.html': 'src/index.html',     // 'destination': 'source'
             }
           }
+        },
+
+        imagemin: {
+          dynamic: {                         // Another target
+            files: [{
+              expand: true,                  // Enable dynamic expansion
+              cwd: 'images/src/',                   // Src matches are relative to this path
+              src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+              dest: 'images/dist/'                  // Destination path prefix
+            }]
+          }
         }
 
     });
@@ -41,8 +52,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['uglify','cssmin','htmlmin']);
+    grunt.registerTask('default', ['uglify','cssmin','htmlmin','imagemin']);
 
 };

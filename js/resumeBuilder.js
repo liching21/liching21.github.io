@@ -17,7 +17,7 @@ var bio = {
 		"location": "Sydney, Australia"
 	},
 
-	"pictureURL": "images/melb-cup-me.jpg",
+	"pictureURL": "images/dist/melb-cup-me.jpg",
 	"welcomeMessage": "Hello everyone, welcome to my portfolio page!",
 	"skills": ["HTML" , "JS" , "CSS" , "Creating responsive webpages"],
 	display: function(){
@@ -129,9 +129,9 @@ var projects = {
 			"url": "http://liching21.github.io/22/",
 			"description" : "Applying the front end web design and development techniques that I have leant so far to create and aesthetically pleasing webpage highlighting the events that happened when I was 22",
 			"images": [
-				"images/22img1.jpg",
-				"images/22img2.jpg",
-				"images/22img3.jpg"
+				"images/dist/22img1.jpg",
+				"images/dist/22img2.jpg",
+				"images/dist/22img3.jpg"
 			]
 		},
 		{
@@ -140,10 +140,10 @@ var projects = {
 			"url": "http://liching21.github.io/Emeralds/",
 			"description" : "In an attempt to improve the current website, I have created an unofficial website for the Sydney Emeralds Synchro Club.",
 			"images": [
-				"images/SESCimg1.jpg",
-				"images/SESCimg2.jpg",
-				"images/SESCimg3.jpg",
-				"images/SESCimg4.jpg"
+				"images/dist/SESCimg1.jpg",
+				"images/dist/SESCimg2.jpg",
+				"images/dist/SESCimg3.jpg",
+				"images/dist/SESCimg4.jpg"
 			]
 		},
 		{
@@ -152,9 +152,9 @@ var projects = {
 			"url": "http://liching21.github.io/frontend-nanodegree-arcade-game-master/",
 			"description" : "The aim of the game is to move the selected hero from the bottom to the top of the screen with colliding with the bugs. This project had been created primarily with Object Oriented Javascript and the HTML Canvas",
 			"images": [
-				"images/frogger-3a.jpg",
-				"images/frogger-4a.jpg",
-				"images/frogger-5a.jpg"
+				"images/dist/frogger-3a.jpg",
+				"images/dist/frogger-4a.jpg",
+				"images/dist/frogger-5a.jpg"
 			]
 		}
 	],

@@ -121,7 +121,7 @@ a {
 }
 
 #header {
-  background-image: url("../images/water+rocks.jpeg");
+  background-image: url("../images/dist/water+rocks.jpg");
   background-size: 100%;
 }
 
@@ -244,6 +244,6 @@ span {
 }
 
 #projects{
-  background-image: url("../images/gplaypattern.png");
+  background-image: url("../images/dist/gplaypattern.png");
   /**background-size: 100%;*/
 }
