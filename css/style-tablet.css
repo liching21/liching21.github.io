@@ -1,0 +1,19 @@
+/** CSS file for the underconsturction page - Tablet version */
+
+@media (max-width: 780px){
+	body{
+		background-image: url("../img/rock-bg-portrait.jpg");
+	}
+}
+
+.message{
+	font-size: 30px;
+}
+
+.header-title{
+	font-size: 32px;
+}
+
+.header-subtitle{
+	font-size: 14px;
+}

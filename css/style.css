@@ -1,249 +1,92 @@
-* {
-  padding:0;
-  margin:0;
-  font-family: 'Roboto', sans-serif;
+/** CSS file for the underconsturction page */
+
+body{
+	background-image: url("../img/rock-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
 }
 
-.clearfix {
-  overflow: auto;
+.header{
+	background-color: #5ca3cd;
+	background: rgb(92, 163, 205);
+	background: rgba(92, 163, 205, 0.5);
+	margin-top: 6%;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: light;
 }
 
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 1%;
+.header-title{
+	font-weight: 300;
 }
 
-h1 {
-  font-size: 40px;
-  color: #F5A623;
-  line-height: 48px;
-  display: inline;
-  text-shadow: 1px 1px 1px black;
+.header-subtitle{
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 18px;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999999;
-  line-height: 29px;
-  padding: 10px;
+.content{
+	margin-top: 6%;
 }
 
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000000;
-  line-height: 22px;
+.message{
+	font-family: 'Fredericka the Great', cursive;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4A4A4A;
-  line-height: 17px;
+.footer{
+	position: absolute;
+	bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
-h2, h3, h4, h5 {
-  padding:10px;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-weight: 300;
+.fa{
+	font-size: 30px;
+    color: #fff;
+    margin: 0px 10px;
+    border: 3px solid #fff;
+    padding: 5px 8px;
+    cursor: pointer;
 }
 
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: left;
+.fa-envelope-square:hover{
+	color: #aad450;
+	border-color: #aad450;
 }
 
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: right;
-
+.fa-github-square:hover{
+	color: #6e5494;
+	border-color: #6e5494;
 }
 
-p {
-  font-size: 14px;
-  color: #333333;
-  line-height: 21px;
-  font-weight: 300;
+.fa-linkedin-square:hover{
+	color: #0077b5;
+	border-color: #0077b5;
 }
 
-a {
-  color: #F5AE23;
-  text-decoration: none;
-  margin-top: 12px;
-  display: block;
-  font-weight: 300;
+.fa-facebook-square:hover{
+	color: #3b5998;
+	border-color: #3b5998;
 }
 
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
+.fa-pinterest-square:hover{
+	color: #cb2027;
+	border-color: #cb2027;
 }
 
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
-}
+@media (orientation: portrait){
+	body{
+		background-image: url("../img/rock-bg-portrait.jpg");
+	}
 
-.orange {
-  background-color: #F5AE23;
-}
-
-.orange-text {
-  color: #F5AE23;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 1px black;
-}
-
-.gray {
-  background-color: #F3F3F3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #4A4A4A;
-}
-
-#header {
-  background-image: url("../images/dist/water+rocks.jpg");
-  background-size: 100%;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.center-content {
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%
-}
-
-ul {
-  list-style-type: none;
-}
-
-.biopic {
-  float: left;
-  padding: 0px;
-  margin-right: 24px;
-  max-width: 300px;
-  display: none;
-  border-radius: 12px;
-  border: 2px solid whitesmoke;
-}
-
-img {
-  padding: 10px;
-}
-
-#projects img{
-  max-width: 250px;
-  padding: 0px;
-  margin: 12px 12px 0px 0px;
-  border-radius: 12px;
-}
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
-}
-
-span {
-  padding: 5px;
-}
-
-#letsConnect {
-  text-align: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-
-  #header{
-    background-color: #006666;
-    background-image: none;
-  }
-
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
-}
-
-#map {
-  display: block;
-  height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
-@media only screen and (min-width: 750px) {
-  #skillsH3,
-  .biopic {
-    display: block;
-  }
-}
-
-
-/** added for the project customisation **/
-
-#skills li.flex-item{
-  width: 100%;
-}
-
-#projects{
-  background-image: url("../images/dist/gplaypattern.png");
-  /**background-size: 100%;*/
+	.footer{
+		margin-bottom: 5%;
+	}
 }

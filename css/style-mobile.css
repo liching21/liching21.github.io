@@ -1,0 +1,18 @@
+/** CSS file for the underconsturction page - mobile version */
+
+.header-title {
+    font-size: 24px;
+}
+
+.header-subtitle {
+    font-size: 12px;
+}
+
+.message {
+    font-size: 20px;
+}
+
+.fa {
+    font-size: 20px;
+    border: 2px solid #fff;
+}
