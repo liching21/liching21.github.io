@@ -1,10 +1,9 @@
-# liching21.github.io
-My Portfolio
+# 2015-personal-website
 
-This is the repository where my portfolio will live.
+This is my website using the Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com) as a boilerplate.
 
-Unfortunately this is still work in process and at the moment this I have created a "under construction" page.
+This is still work in progress.
 
-Please check back again in the future to view my portfolio.
+Click [here](http://lichingyew.com/2015-personal-website) to view the website.
 
-You may visit this page on: http://lichingyew.com/
+To view my previous portfolio website, please click [here](http://lichingyew.com/FEND-Resume)
