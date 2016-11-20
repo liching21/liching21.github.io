@@ -1,0 +1,93 @@
+/** CSS file for the underconsturction page */
+
+body{
+	background-image: url("../img/girl-in-woods-landscape.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.header{
+	background-color: #97C360;
+	background: rgb(151, 195, 96);
+	background: rgba(151, 195, 96, 0.5);
+	margin-top: 6%;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: light;
+}
+
+.header-title{
+	font-weight: 300;
+}
+
+.header-subtitle{
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.content{
+	margin-top: 6%;
+}
+
+.message{
+	font-family: 'Fredericka the Great', cursive;
+	color: #fff;
+    text-shadow: 2px 2px #243523;
+	font-size: 40px;
+	text-align: center;
+}
+
+.footer{
+	position: absolute;
+	bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.fa{
+	font-size: 30px;
+    color: #fff;
+    margin: 0px 10px;
+    border: 3px solid #fff;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.fa-envelope-square:hover{
+	color: #aad450;
+	border-color: #aad450;
+}
+
+.fa-github-square:hover{
+	color: #6e5494;
+	border-color: #6e5494;
+}
+
+.fa-linkedin-square:hover{
+	color: #0077b5;
+	border-color: #0077b5;
+}
+
+.fa-facebook-square:hover{
+	color: #3b5998;
+	border-color: #3b5998;
+}
+
+.fa-pinterest-square:hover{
+	color: #cb2027;
+	border-color: #cb2027;
+}
+
+@media (orientation: portrait){
+	body{
+		background-image: url("../img/rock-bg-portrait.jpg");
+	}
+
+	.footer{
+		margin-bottom: 5%;
+	}
+}

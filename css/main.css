@@ -311,3 +311,14 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #222; }
+
+/** Custom CSS */
+
+.project-btn{
+  border: 3px solid #fff;
+}
+
+.project-link{
+  color: #fff;
+}
+
